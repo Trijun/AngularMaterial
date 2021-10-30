@@ -1,0 +1,31 @@
+/* Angular material CSS */
+
+
+
+.example-header-image {
+    background-image: url('https://cdn.dribbble.com/users/1223630/screenshots/8115260/char_still_2x.gif?compress=1&resize=400x300');
+    background-size: cover;
+}
+
+/* My Custom CSS */
+
+.max-width{
+    max-width: 800px;
+}
+
+.marginTopLeft{
+    margin-top: 30px;
+    margin-left: 30px;;
+}
+
+.paddingBottom10{
+    padding-bottom: 30px;
+}
+
+.margin30{
+    margin: 30px;
+ }
+
+ .margin10{
+    margin: 10px;
+ }

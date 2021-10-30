@@ -1,0 +1,60 @@
+<div fxLayout="row" class="margin30">
+    <div fxFlex="20" class="sub-section-1 margin10"> 
+        <mat-card class="example-card paddingBottom30">
+            <mat-card-header>
+              <div mat-card-avatar class="example-header-image"></div>
+              <mat-card-title>User Name</mat-card-title>
+              <mat-card-subtitle>@username123</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="https://cdn.dribbble.com/users/1223630/screenshots/8115260/char_still_2x.gif?compress=1&resize=400x300" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              </p>
+            </mat-card-content>
+          </mat-card>
+    </div>
+    <div  fxLayout="column" fxFlex="80" class="margin10">
+        <div fxLayout="row" >
+            <mat-card fxFlex="100">
+                <div fxLayout="row" >
+                    <div fxFlex="58.5" fxFlexOffset="1.5">
+                        <mat-card-title class="marginTopBottom10">Details</mat-card-title>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repellendus consequatur laborum deserunt qui veniam numquam, commodi enim molestias fugit.</p>
+                    </div>
+                    
+                    <div fxLayout="row" fxLayoutAlign="end center" fxFlex="38"  >
+                        <form class="example-form marginRight30">
+                            <mat-form-field class="example-full-width" appearance="fill">
+
+                            <mat-label>Search</mat-label>
+                            <input type="text" matInput placeholder="Enter user here">
+                            <mat-icon matSuffix class="fa fa-search" style="font-size:18px"></mat-icon>
+
+                            </mat-form-field>
+                        </form>
+                    </div>  
+                </div>
+            </mat-card>
+        </div>
+        <br>
+        <mat-card class="example-card paddingBottom30">
+            <div fxLayout="row">
+                <div fxFlex="20" class="sidemenu"> 
+                    <mat-sidenav-container>
+                        <mat-sidenav>Start</mat-sidenav>
+                        <mat-sidenav-content>
+                            <button mat-raised-button color="primary" routerLink="details-page" class="width100 marginBottom10">Details</button>
+                            <button mat-raised-button color="primary" routerLink="preference-page" class="width100 marginBottom10">Preferences</button>
+                            <button mat-raised-button color="primary" routerLink="work-detail-page" class="width100 marginBottom10">Work Detail</button>
+                            <button mat-raised-button color="primary" routerLink="licenseing-page" class="width100 marginBottom10">Licenseings</button>
+                            <button mat-raised-button color="primary" routerLink="membership-page" class="width100 marginBottom10">Group Memberships</button>
+                        </mat-sidenav-content>
+                      </mat-sidenav-container>
+                </div>
+                <div fxFlex="80" class="sidecontent"> 
+                      <router-outlet></router-outlet>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>

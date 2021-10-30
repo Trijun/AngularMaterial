@@ -1,0 +1,49 @@
+/* Angular material CSS */
+
+.example-header-image {
+    background-image: url('https://cdn.dribbble.com/users/1223630/screenshots/8115260/char_still_2x.gif?compress=1&resize=400x300');
+    background-size: cover;
+}
+
+/* My Custom CSS */
+
+.max-width{
+    max-width: 100%;
+}
+
+.margin30{
+   margin: 30px;
+}
+
+.width100{
+    width: 100%;
+}
+
+.sidemenu{
+    margin: 0px 10px;
+}
+.sidecontent{
+    margin: 0px 20px
+}
+.marginBottom10{
+    margin-bottom: 10px;
+}
+.margin10{
+    margin: 10px
+}
+.paddingBottom30{
+    padding-bottom: 30px;
+}
+
+.alignLogo{
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+marginRight30{
+    margin-right: 30px;
+}
+
+.marginTopBottom10{
+    margin: 10px 0px;
+}

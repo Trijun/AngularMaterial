@@ -1,0 +1,29 @@
+<mat-toolbar class="navbar ">
+    <button mat-icon-button class="example-icon">
+      <mat-icon class="fa fa-spotify alignLogo" style="font-size:30px"></mat-icon>
+    </button>
+    <span>Company Name</span>
+   
+    <span class="example-spacer"></span>
+    
+    
+    <button routerLink="/second-page"  mat-icon-button class="margin">
+        <!-- <mat-icon class="fas fa-tablet alignLogo" style="font-size:18px"></mat-icon> -->
+        <span>Device</span>  
+    </button>
+    <button routerLink="/second-page" mat-icon-button class="margin">
+        <!-- <mat-icon class="fas fa-info-circle" style="font-size:18px"></mat-icon> -->
+        <span>Support</span>
+    </button>
+    <button routerLink="/second-page" mat-icon-button class="margin">
+        <span>VA Details</span>
+    </button>
+    <button routerLink="/" mat-icon-button class="margin">
+        
+        <span class="margin10">User</span>
+        <mat-icon class="fa fa-user alignLogo" style="font-size:24px"></mat-icon>
+
+    </button>
+
+</mat-toolbar>
+<router-outlet></router-outlet>
